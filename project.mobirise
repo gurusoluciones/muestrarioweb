@@ -41,7 +41,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.10",
     "siteFonts": [],
-    "uniqCompNum": 106,
+    "uniqCompNum": 107,
     "versionPublish": "4.8.10",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -1521,13 +1521,13 @@
             }
           },
           "_name": "map1",
-          "_customHTML": "<section class=\"map1\" group=\"Forms & Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<input type=\"range\" inline title=\"Arriba\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"1\">\n\t\t<input type=\"range\" inline title=\"Abajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"1\">\n    \t<input type=\"map\" title=\"Mapa\" name=\"googleMap\" place-id value=\"Av. Paseo de la República 3775, San Isidro\">   \n    \t<input type=\"color\" name=\"bgColor\" title=\"Color de Fondo\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
-          "_cid": "rdQKBaFQN5",
-          "_anchor": "map1-22",
+          "_customHTML": "<section class=\"map1\" group=\"Forms & Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<input type=\"range\" inline title=\"Arriba\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\">\n\t\t<input type=\"range\" inline title=\"Abajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\">\n    \t<input type=\"map\" title=\"Mapa\" name=\"googleMap\" place-id value=\"Avenida Paseo de la República 3775, San Isidro\">   \n    \t<input type=\"color\" name=\"bgColor\" title=\"Color de Fondo\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
+          "_cid": "rf7ldprJpn",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "map1-2y"
         },
         {
           "_styles": {
