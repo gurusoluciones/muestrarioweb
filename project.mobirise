@@ -1006,7 +1006,7 @@
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
-                "tags": "Increíble",
+                "tags": "Talleres mecánicos",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1032,7 +1032,7 @@
                 "active": false
               },
               {
-                "tags": "Creativa",
+                "tags": "Construcción",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1068,10 +1068,10 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<a href=\"https://manyrperu.com\" target=\"_blank\">Ver Página Web</a>",
-                "active": true
+                "active": false
               },
               {
-                "tags": "Increíble",
+                "tags": "Agencia de turismo",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1084,7 +1084,7 @@
                 "active": false
               },
               {
-                "tags": "Responsive",
+                "tags": "Agencia de turismo",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1097,7 +1097,7 @@
                 "active": false
               },
               {
-                "tags": "Animada",
+                "tags": "Agencia de turismo",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1110,7 +1110,7 @@
                 "active": false
               },
               {
-                "tags": "Increíble",
+                "tags": "Mensajería",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1123,7 +1123,7 @@
                 "active": false
               },
               {
-                "tags": "Increíble",
+                "tags": "Carrocerías",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1136,7 +1136,7 @@
                 "active": false
               },
               {
-                "tags": "Increíble",
+                "tags": "Lavado de vehículos",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1149,7 +1149,7 @@
                 "active": false
               },
               {
-                "tags": "Increíble",
+                "tags": "Carrocerías",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1162,7 +1162,7 @@
                 "active": false
               },
               {
-                "tags": "Increíble",
+                "tags": "Restaurantes",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1172,10 +1172,10 @@
                 "title": "",
                 "customStyle1": "display-4",
                 "caption": "<a href=\"https://www.limonybrasas.com\" target=\"_blank\" class=\"text-black\">Ver Página Web</a>",
-                "active": false
+                "active": true
               },
               {
-                "tags": "Increíble",
+                "tags": "Limpieza industrial",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1188,7 +1188,7 @@
                 "active": false
               },
               {
-                "tags": "Increíble",
+                "tags": "Organización de Eventos",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1201,7 +1201,7 @@
                 "active": false
               },
               {
-                "tags": "Increíble",
+                "tags": "Organización de Eventos",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
