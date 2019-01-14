@@ -987,7 +987,7 @@
             }
           },
           "_name": "gallery2",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Galería de Ancho Completo\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Arriba\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Abajo\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Subtítulo\" name=\"showSubtitle\">\n        <input type=\"color\" title=\"Color 1 de Superposición en Items\" name=\"overlayColor1\" value=\"#b2ccd2\">\n        <input type=\"checkbox\" title=\"Superposición de Degradado en Items\" name=\"gradientOverlay\">\n        <input type=\"color\" title=\"Color 2 de Superposición en Items\" name=\"overlayColor2\" value=\"#66458e\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Opacidad de Superposición en Items\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" inline>\n        <input type=\"color\" title=\"Color de Etiquetas\" name=\"tagsColor\" value=\"#000000\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"@PROJECT_PATH@/assets/images/background12-1.jpg\" parallax>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Superposición\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Color de Superposición\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacidad\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Galería\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style pb-2 align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Lorem Ipsum Dolor Sit Amet</h3>\n        <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.mbr-gallery-filter ul\" mbr-class=\"{'pb-4':!gallery__filter}\"><b>Algunos de nuestros clientes</b></h2>\n    </div> \n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-bullets mbr-gallery-show-text mbr-gallery-show-filter></div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Galería de Ancho Completo\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Arriba\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Abajo\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Subtítulo\" name=\"showSubtitle\">\n        <input type=\"color\" title=\"Color 1 de Superposición en Items\" name=\"overlayColor1\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Superposición de Degradado en Items\" name=\"gradientOverlay\">\n        <input type=\"color\" title=\"Color 2 de Superposición en Items\" name=\"overlayColor2\" value=\"#66458e\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Opacidad de Superposición en Items\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" inline>\n        <input type=\"color\" title=\"Color de Etiquetas\" name=\"tagsColor\" value=\"#000000\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"@PROJECT_PATH@/assets/images/background12-1.jpg\" parallax>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Superposición\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Color de Superposición\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacidad\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Galería\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style pb-2 align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Lorem Ipsum Dolor Sit Amet</h3>\n        <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.mbr-gallery-filter ul\" mbr-class=\"{'pb-4':!gallery__filter}\"><b>Algunos de nuestros clientes</b></h2>\n    </div> \n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-bullets mbr-gallery-show-text mbr-gallery-show-filter></div>\n    </div>\n</section>",
           "_anchor": "gallery2-2s",
           "_isUserblock": true,
           "_sourceTheme": "commercem4",
@@ -1016,10 +1016,10 @@
                 "title": "",
                 "customStyle1": "display-4",
                 "caption": "<a href=\"https://www.awcajasautomaticas.com\" target=\"_blank\" class=\"text-black\">Ver Página Web</a>",
-                "active": true
+                "active": false
               },
               {
-                "tags": "Responsive",
+                "tags": "Talleres mecánicos",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1045,7 +1045,7 @@
                 "active": false
               },
               {
-                "tags": "Animada",
+                "tags": "Construcción",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1058,7 +1058,7 @@
                 "active": false
               },
               {
-                "tags": "Increíble",
+                "tags": "Construcción",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1068,7 +1068,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<a href=\"https://manyrperu.com\" target=\"_blank\">Ver Página Web</a>",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Increíble",
@@ -1080,7 +1080,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<a href=\"https://www.ozoneperu.com\" target=\"_blank\">Ver Página Web</a>",
+                "caption": "<a href=\"https://www.ozoneperu.com\" target=\"_blank\" class=\"text-black\">Ver Página Web</a>",
                 "active": false
               },
               {
@@ -1107,6 +1107,110 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<a href=\"https://raymitoursusa.com\" target=\"_blank\">Ver Página web</a>",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/alin-mensajeria-808x492.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/alin-mensajeria-808x492-800x487.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "<a href=\"https://www.alincourier.com\" target=\"_blank\" class=\"text-black\">Ver Página Web</a>",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/atom-carrocerias-808x492.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/atom-carrocerias-808x492-800x487.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "<a href=\"https://www.atomindustriametalica.com\" target=\"_blank\" class=\"text-black\">Ver Página Web</a>",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/perfectwash-limpieza-808x492.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/perfectwash-limpieza-808x492-800x487.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "<a href=\"https://www.perfectwashlamolina.com\" target=\"_blank\" class=\"text-black\">Ver Página Web</a>",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/misticar-carrocerias-808x492.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/misticar-carrocerias-808x492-800x487.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "<a href=\"https://www.misticar.com\" target=\"_blank\" class=\"text-black\">Ver Página Web</a>",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/limon-restaurantes-808x492.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/limon-restaurantes-808x492-800x487.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "<a href=\"https://www.limonybrasas.com\" target=\"_blank\" class=\"text-black\">Ver Página Web</a>",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/hemanca-limpieza-808x492.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/hemanca-limpieza-808x492-800x487.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "<a href=\"https://www.limpiezaindustrialhemanca.com\" target=\"_blank\" class=\"text-black\">Ver Página Web</a>",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/katty-eventos-808x492.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/katty-eventos-808x492-800x487.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "<a href=\"https://www.kattytoldos.com\" target=\"_blank\" class=\"text-black\">Ver Página Web</a>",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/cilady-org-eventos-808x492.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cilady-org-eventos-808x492-800x487.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-4",
+                "caption": "<a href=\"https://www.eventoscilady.net\" target=\"_blank\" class=\"text-black\">Ver Página Web</a>",
                 "active": false
               }
             ]
