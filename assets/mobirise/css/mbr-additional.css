@@ -1413,7 +1413,7 @@ body {
   background-color: #ffffff;
 }
 .cid-reRrTYK851 .mbr-section-subtitle {
-  color: #767676;
+  color: #e96188;
 }
 .cid-reRrTYK851 .mbr-slider .carousel-control {
   background: #1b1b1b;
@@ -1562,6 +1562,162 @@ body {
 }
 .cid-reRrTYK851 .mbr-gallery-item > div > span {
   color: #000000;
+}
+.cid-rgYu9vtyaB {
+  padding-top: 15px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rgYu9vtyaB .mbr-section-subtitle {
+  color: #e96188;
+}
+.cid-rgYu9vtyaB .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-rgYu9vtyaB .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-rgYu9vtyaB .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-rgYu9vtyaB .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-rgYu9vtyaB .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+}
+.cid-rgYu9vtyaB .icon-focus {
+  font-size: 2rem !important;
+  width: 50px;
+  height: 50px;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
+}
+.cid-rgYu9vtyaB .icon-focus:before {
+  content: '+';
+  border-radius: 100px;
+  background: #444444;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 6px;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.cid-rgYu9vtyaB .icon-video {
+  font-size: 1.5rem !important;
+  width: 50px;
+  height: 50px;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
+}
+.cid-rgYu9vtyaB .icon-video:before {
+  border-radius: 100px;
+  background: #444444;
+  width: 100%;
+  height: 100%;
+  padding-left: 6px;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.cid-rgYu9vtyaB .mbr-gallery-title {
+  transition: all 0.5s ease;
+  position: absolute;
+  text-align: left;
+  display: none;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+  color: #ffffff;
+  font-weight: bold;
+  background: transparent;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+.cid-rgYu9vtyaB ul {
+  font-size: 0;
+}
+.cid-rgYu9vtyaB .mbr-gallery-filter ul {
+  text-align: center;
+}
+.cid-rgYu9vtyaB .mbr-gallery-filter ul li .btn {
+  border: none !important;
+  background-color: transparent;
+  color: #000000 !important;
+  padding: 0.5rem 1rem 0.6rem;
+  border-radius: 0;
+  margin: 0!important;
+  transition: padding, border 0s, transform .2s;
+}
+.cid-rgYu9vtyaB .mbr-gallery-filter ul li .btn.active {
+  padding: 0.5rem 1rem 0.5rem;
+  border-radius: 0 !important;
+}
+.cid-rgYu9vtyaB .mbr-gallery-filter ul li {
+  padding: 0;
+  margin: 0 .2rem;
+}
+.cid-rgYu9vtyaB .mbr-gallery-filter ul li:first-child,
+.cid-rgYu9vtyaB .mbr-gallery-filter ul li:last-child {
+  margin: 0;
+}
+.cid-rgYu9vtyaB .mbr-gallery-item > div:hover .mbr-gallery-title {
+  display: block;
+}
+.cid-rgYu9vtyaB .mbr-gallery-item > div:hover:before {
+  opacity: 0.6 !important;
+}
+.cid-rgYu9vtyaB .btn {
+  background: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.cid-rgYu9vtyaB .btn.active:after {
+  animation: none;
+}
+.cid-rgYu9vtyaB .btn:active {
+  box-shadow: none !important;
+}
+.cid-rgYu9vtyaB .btn:hover {
+  background: transparent !important;
+}
+.cid-rgYu9vtyaB .btn:hover:before {
+  background: transparent !important;
+}
+.cid-rgYu9vtyaB .btn:before {
+  background-color: transparent !important;
+}
+.cid-rgYu9vtyaB .btn:focus {
+  box-shadow: none !important;
+}
+.cid-rgYu9vtyaB .mbr-section-title,
+.cid-rgYu9vtyaB .mbr-gallery-filter ul B {
+  color: #e96188;
+}
+.cid-rgYu9vtyaB .mbr-gallery-item > div > span P {
+  color: #ffc432;
+}
+.cid-rgYu9vtyaB .mbr-gallery-item > div > span {
+  color: #e96188;
 }
 .cid-relEcVN0Lm {
   padding-top: 90px;
