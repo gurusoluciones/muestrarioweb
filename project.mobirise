@@ -1419,7 +1419,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<a href=\"https://www.sercontrigestionempresarial.com/\" target=\"_blank\" class=\"text-info\">Descubre</a>",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Alpaca Artículos",
@@ -1511,6 +1511,58 @@
                 "customStyle1": "display-7",
                 "caption": "<a href=\"https://www.worldservisperu.com/\" target=\"_blank\">Avanza</a>",
                 "active": false
+              },
+              {
+                "tags": "Seguridad Industrial",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/stratton-pdescubre-460x372.png",
+                "thumb": "@PROJECT_PATH@/assets/images/stratton-pdescubre-460x372-460x372.png",
+                "alt": "Diseño One Page",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<a href=\"https://www.sercontrigestionempresarial.com/\" target=\"_blank\" class=\"text-info\">Descubre</a>",
+                "active": false
+              },
+              {
+                "tags": "Consultoría Empresas",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/demarcos-pdescubre-460x372.png",
+                "thumb": "@PROJECT_PATH@/assets/images/demarcos-pdescubre-460x372-460x372.png",
+                "alt": "Diseño One Page",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<a href=\"https://www.sercontrigestionempresarial.com/\" target=\"_blank\" class=\"text-info\">Descubre</a>",
+                "active": false
+              },
+              {
+                "tags": "Transporte de Carga",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/transnorte-pdescubre-460x372.png",
+                "thumb": "@PROJECT_PATH@/assets/images/transnorte-pdescubre-460x372-460x372.png",
+                "alt": "Diseño One Page",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<a href=\"https://www.sercontrigestionempresarial.com/\" target=\"_blank\" class=\"text-info\">Descubre</a>",
+                "active": false
+              },
+              {
+                "tags": "Cargadores Baterías",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/world-servicios-pdescubre-460x372.png",
+                "thumb": "@PROJECT_PATH@/assets/images/world-servicios-pdescubre-460x372-460x372.png",
+                "alt": "Diseño One Page",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<a href=\"https://www.sercontrigestionempresarial.com/\" target=\"_blank\" class=\"text-info\">Descubre</a>",
+                "active": true
               }
             ]
           }
